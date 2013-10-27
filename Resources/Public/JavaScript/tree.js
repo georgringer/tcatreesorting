@@ -252,7 +252,7 @@ TYPO3.Components.Tree.TcaCheckChangeHandler = function(checkedNode, checked) {
     eval('treeinput' + this.id);
     eval(this.onChange);
 
-    var selectField = document.getElementById('treeinput2');
+    var selectField = document.getElementById('treeinput2' + this.id);
 
     selectField.innerHTML = '';
     for(var i = 0; i < selected2.length; i++) {

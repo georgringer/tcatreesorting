@@ -215,7 +215,7 @@ class TreeElement extends \TYPO3\CMS\Backend\Form\Element\TreeElement {
 		$pos = strpos($code, $search);
 		$pos2 = strpos($code, '" ', $pos);
 
-		$newCode = substr($code, 0, $pos + strlen($search)) . 'treeinput2' . substr($code, $pos2);
+		$newCode = substr($code, 0, $pos + strlen($search)) . 'treeinput2' . $id . substr($code, $pos2);
 		$search = '</table>';
 		$pos = strrpos($newCode, $search);
 
