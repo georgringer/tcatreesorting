@@ -1,7 +1,9 @@
 # TYPO3 extension "tcatreesorting"#
 
 
-This extension makes it possible to sort the relation if using the TCA tree as rendering
+This extension makes it possible to sort the relation if using the TCA tree as rendering.
+
+![alt text](https://raw.github.com/georgringer/tcatreesorting/master/Resources/Public/Images/screenshot.png "Screenshot")
 
 ## Requirements ##
 
