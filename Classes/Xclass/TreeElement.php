@@ -195,6 +195,7 @@ class TreeElement extends \TYPO3\CMS\Backend\Form\Element\TreeElement {
 				</td>
 				<td>
 					<div style="padding-left:20px;margin-top:30px;">
+					<h6>' . $GLOBALS['LANG']->sL('LLL:EXT:tcatreesorting/Resources/Private/Language/locallang_be.xml:sortingheader', TRUE) . '</h6>
 					' . $this->getGroup($PA, $id) . '
 					</div>
 				</td>
